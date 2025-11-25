@@ -1,9 +1,7 @@
 package in.rudresh.RailwayReservation;
-
 import java.util.*;
 
 public class Main {
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		TrainDAO trainDAO = new TrainDAO();
@@ -17,7 +15,6 @@ public class Main {
 			System.out.println("4. Cancel Booking");
 			System.out.println("5. Exit");
 			System.out.print("Enter choice: ");
-
 			int ch = sc.nextInt();
 
 			switch (ch) {
