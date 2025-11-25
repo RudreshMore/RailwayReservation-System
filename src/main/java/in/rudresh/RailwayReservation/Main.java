@@ -1,10 +1,5 @@
 package in.rudresh.RailwayReservation;
 
-/**
- *
- * @author Your name
- */
-
 import java.util.*;
 
 public class Main {
